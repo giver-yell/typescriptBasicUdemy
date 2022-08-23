@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/giver-yell/typescriptBasicUdemy/issues"
   },
-  "homepage": "https://github.com/giver-yell/typescriptBasicUdemy#readme"
+  "homepage": "https://github.com/giver-yell/typescriptBasicUdemy#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
