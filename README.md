@@ -4,11 +4,18 @@
 - install typescript  
 `$ npm install --save-dev  typescript@4.7.4`
 - Install ts-node  
-`$ npm info ts-node`
+`$ npm info ts-node`  
 `$ npm install --save-dev ts-node@10.9.1`
+- Install ts-node-dev  
+`$ npm info ts-node-dev`  
+`$ npm install --save-dev ts-node-dev@2.0.0`
 
 ## npx command
-- コンパイルと実行
+- ts-node-dev コンパイルと自動実行  
+`$ npx ts-node-dev --respawn src/install-typescript.ts`  
+    - ショートカット  
+    `$ npm run dev src/install-typescript.ts`
+- ts-node コンパイルと実行  
 `$ npx ts-node src/install-typescript.ts`
 
 ## npm command
