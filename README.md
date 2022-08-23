@@ -10,6 +10,14 @@
 `$ npm info ts-node-dev`  
 `$ npm install --save-dev ts-node-dev@2.0.0`
 
+## Setting VSCode
+- Add `settings.json`
+```
+"editor.formatOnSave": true,
+"prettier.semi": true,
+"prettier.singleQuote": true,
+```
+
 ## npx command
 - ts-node-dev コンパイルと自動実行  
 `$ npx ts-node-dev --respawn src/install-typescript.ts`  
