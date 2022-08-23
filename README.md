@@ -7,14 +7,17 @@
 ## Git command
 - Create branch  
 `$ git checkout -b [branch name]`
-- Pull  
-`$ git pull origin master`
 - Push  
 `git push -u origin HEAD`
 - checkout(前のブランチ)  
 `$ git checkout -`
 - merge(前のブランチ)  
 `$ git merge -`
+
+- Pull  
+`$ git pull origin master`
+- Fetch  
+`$ git fetch origin`
 
 ## Reference
 Udemy - ハンズオンで学ぶTypeScript - JavaScript エンジニアのためのTypeScript徹底入門
