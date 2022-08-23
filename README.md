@@ -1,5 +1,9 @@
 # typescriptBasicUdemy
 
+## Settings
+- install typescript  
+`$ npm install --save-dev  typescript@4.7.4`
+
 ## npm command
 - Create package.json  
 `$ npm init -y`
