@@ -10,6 +10,12 @@
 - Install ts-node-dev  
   `$ npm info ts-node-dev`  
   `$ npm install --save-dev ts-node-dev@2.0.0`
+- Install eslint  
+  `$ npm install eslint --save-dev`  
+  `$ npx eslint --init`
+  - 参考 URL  
+    https://maku.blog/p/xz9iry9/  
+    https://zenn.dev/ken505/articles/817024d544c5ea
 
 ## Setting VSCode
 
@@ -24,9 +30,9 @@
 ## npx command
 
 - ts-node-dev コンパイルと自動実行  
-  `$ npx ts-node-dev --respawn src/install-typescript.ts`  
-   - ショートカット  
-   `$ npm run dev src/install-typescript.ts`
+  `$ npx ts-node-dev --respawn src/install-typescript.ts`
+  - ショートカット  
+    `$ npm run dev src/install-typescript.ts`
 - ts-node コンパイルと実行  
   `$ npx ts-node src/install-typescript.ts`
 - Create tsconfig.json  
