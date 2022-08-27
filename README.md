@@ -16,6 +16,11 @@
   - 参考 URL  
     https://maku.blog/p/xz9iry9/  
     https://zenn.dev/ken505/articles/817024d544c5ea
+- Install Prettier  
+  `$ npm install prettier --save-dev --save-exact`  
+  `$ npm install eslint-config-prettier --save-dev`  
+  - 参考 URL  
+  https://maku.blog/p/au8iu6u/
 
 ## Setting VSCode
 
