@@ -21,6 +21,8 @@
   `$ npm install eslint-config-prettier --save-dev`  
   - 参考 URL  
   https://maku.blog/p/au8iu6u/
+- Install axios  
+  `$ npm info axios`  
 
 ## Setting VSCode
 
