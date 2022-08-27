@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:eslint": "eslint . --ext ts,tsx",
+    "fix:eslint": "eslint . --ext ts,tsx --fix"
   },
   "repository": {
     "type": "git",
